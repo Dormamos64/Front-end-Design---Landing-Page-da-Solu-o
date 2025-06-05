@@ -1,0 +1,25 @@
+.principal-alvo {
+  background: #c8f3ff;
+}
+
+.alvo {
+  max-width: 1120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+.conteudo-alvo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.imagen-alvo img {
+  width: 100%;
+  border-radius: 8%;
+}
