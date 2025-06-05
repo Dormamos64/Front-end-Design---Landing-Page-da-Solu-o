@@ -1,0 +1,48 @@
+.principal-home {
+  position: relative;
+  background: url('/src/img/problema2.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.principal-home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.conteudo-home {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.conteudo-home h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.conteudo-home p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.conteudo-home hr {
+  width: 400px;
+  height: 5px;
+  background-color: #ffffff; /* verde água sutil */
+  border: none;
+  margin: 1rem auto;
+}
