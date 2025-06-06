@@ -1,5 +1,6 @@
 .principal-problema {
-    background: #85e7ff;
+    background-color: 	#23283b;	
+    color: 	#ffff;
 }
 .problema{
     max-width: 1120px;
@@ -30,9 +31,10 @@ h1 {
     font-weight: 800;
 }
 hr {
+    
     width: 240px;
     height: 2px;
-    border-color: blue;
+    border-color: #47c2ff;
 }
 p {
     font-size: 20px;

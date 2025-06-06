@@ -1,18 +1,18 @@
 /*heade(navbar)*/
 header.topo {
-  background-color: #eaf2ff;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  color: #1a2e50;
+  color: #c5cedf;
+  
 }
 ul {
     list-style: none;
 }
 a {
   text-decoration: none;
-  color: #2196f3;
+  color: #ebecee;
 }
 .logo {
-  width: 140px;
+  width: 250px;
   height: auto;
 
 }
@@ -63,7 +63,7 @@ main {
 }
 
 footer {
-  background-color: #0d47a1;
+  background-color: #171a25;
   color: white;
   padding: 20px;
   text-align: center;
@@ -83,7 +83,7 @@ button:hover {
 }
 span {
   font-family: epilogue;
-  color: rgb(0, 40, 149);
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -91,4 +91,14 @@ span {
 section {
   border-bottom: 1px solid #ccc;
   padding-bottom: 4rem;
+}
+.imagen-problema img,
+.imagen-objetivo img,
+.imagen-alvo img,
+.imagen-resultados img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
 }

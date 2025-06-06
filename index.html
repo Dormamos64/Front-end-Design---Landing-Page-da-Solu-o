@@ -43,7 +43,7 @@
         </header>
       </section>
     </div>
-   
+
     <!-- Problema -->
     <div class="principal-problema" id="problema">
       <section class="problema">
@@ -66,17 +66,31 @@
         <header class="conteudo-tecnologia">
           <span>Tecnologia</span>
           <h1>Solução Tecnológica</h1>
-          <hr>
-          <p>Utilizamos sensores inteligentes para monitorar o nível da água em tempo real e prever riscos de
-            alagamento.</p>
-          <p>Integração com aplicativos, alertas automáticos e análise de dados garantem resposta rápida e prevenção de
-            desastres.</p>
         </header>
-        <div class="imagen-tecnologia">
-          <figure><img src="/src/img/tecnologia1.png" alt="Tecnologia"></figure>
+
+        <div class="cards-tecnologia">
+          <div class="card">
+            <img src="/src/img/sensor.png" alt="Sensor Inteligente">
+            <h2>Sensores Inteligentes</h2>
+            <p>Dispositivos que monitoram em tempo real o nível da água, com alta precisão e resposta imediata.</p>
+          </div>
+
+          <div class="card">
+            <img src="/src/img/camera.png" alt="App de Monitoramento">
+            <h2>Aplicativo Integrado</h2>
+            <p>Plataforma acessível para população e autoridades receberem alertas e acompanharem o monitoramento.</p>
+          </div>
+
+          <div class="card">
+            <img src="/src/img/alerta.png" alt="Alerta">
+            <h2>Alertas Automatizados</h2>
+            <p>Notificações automáticas e inteligentes para antecipar riscos e agilizar ações preventivas.</p>
+          </div>
         </div>
+        
       </section>
     </div>
+
 
     <!-- Objetivo -->
     <div class="principal-objetivo" id="objetivos">
@@ -91,7 +105,7 @@
             intensas.</p>
         </header>
         <div class="imagen-objetivo">
-          <figure><img src="/src/img/objetivo1.png" alt="Objetivo"></figure>
+          <figure><img src="/src/img/problema2.png" alt="Objetivo"></figure>
         </div>
       </section>
     </div>
@@ -145,7 +159,7 @@
             vez mais frequentes.</p>
         </header>
         <div class="imagen-resultados">
-          <figure><img src="/src/img/resultados1.png" alt="Resultados"></figure>
+          <figure><img src="/src/img/resultados.png" alt="Resultados"></figure>
         </div>
       </section>
     </div>
@@ -156,6 +170,17 @@
     <p>© 2025 EcoAlerta. Todos os direitos reservados.</p>
   </footer>
   <a href="#topo" class="botao-voltar">↑</a>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 </body>
 
 </html>
